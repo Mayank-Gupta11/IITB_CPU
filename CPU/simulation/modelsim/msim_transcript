@@ -1,0 +1,184 @@
+# Reading pref.tcl
+# do cpu_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/DUT.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:22:08 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/DUT.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity DUT
+# -- Compiling architecture DutWrap of DUT
+# End time: 23:22:08 on Nov 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/Sign_Extension_10.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:22:08 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/Sign_Extension_10.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Sign_Extension_10
+# -- Compiling architecture Struct of Sign_Extension_10
+# End time: 23:22:08 on Nov 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/Sign_Extension_7.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:22:09 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/Sign_Extension_7.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Sign_Extension_7
+# -- Compiling architecture Struct of Sign_Extension_7
+# End time: 23:22:09 on Nov 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/cpu.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:22:09 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/cpu.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cpu
+# -- Compiling architecture bhv of cpu
+# End time: 23:22:09 on Nov 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/alu.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:22:09 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/alu.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU
+# -- Compiling architecture a1 of ALU
+# ** Warning: C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/alu.vhdl(37): (vcom-1083) Implicit array operator "=" always returns FALSE (left length 16 is not equal to right length 15).
+# End time: 23:22:09 on Nov 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vcom -93 -work work {C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/mux81.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:22:09 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/mux81.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux81
+# -- Compiling architecture behav of mux81
+# End time: 23:22:09 on Nov 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/reg.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:22:09 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/reg.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity reg
+# -- Compiling architecture behav of reg
+# End time: 23:22:09 on Nov 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/reg_file.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:22:09 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/reg_file.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity reg_file
+# -- Compiling architecture arch of reg_file
+# End time: 23:22:09 on Nov 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/memory.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:22:09 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/memory.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity memory
+# -- Compiling architecture behav of memory
+# End time: 23:22:10 on Nov 30,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/demux18.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:22:10 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/demux18.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity demux18
+# -- Compiling architecture behav of demux18
+# End time: 23:22:10 on Nov 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/Testbench.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:22:10 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/Testbench.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Testbench
+# -- Compiling architecture Behave of Testbench
+# End time: 23:22:10 on Nov 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  Testbench
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" Testbench 
+# Start time: 23:22:10 on Nov 30,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testbench(behave)
+# Loading work.dut(dutwrap)
+# Loading ieee.numeric_std(body)
+# Loading work.cpu(bhv)
+# Loading work.reg_file(arch)
+# Loading work.demux18(behav)
+# Loading work.reg(behav)
+# Loading work.mux81(behav)
+# Loading work.memory(behav)
+# Loading work.sign_extension_10(struct)
+# Loading work.sign_extension_7(struct)
+# Loading work.alu(a1)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 152 ns  Iteration: 3  Instance: /testbench/dut_instance/add_instance/Mem1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 171 ns  Iteration: 1  Instance: /testbench/dut_instance/add_instance/Mem1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 190 ns  Iteration: 1  Instance: /testbench/dut_instance/add_instance/Mem1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 209 ns  Iteration: 1  Instance: /testbench/dut_instance/add_instance/Mem1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 228 ns  Iteration: 1  Instance: /testbench/dut_instance/add_instance/Mem1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 247 ns  Iteration: 1  Instance: /testbench/dut_instance/add_instance/Mem1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 266 ns  Iteration: 1  Instance: /testbench/dut_instance/add_instance/Mem1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 285 ns  Iteration: 1  Instance: /testbench/dut_instance/add_instance/Mem1
+# ** Note: SUCCESS, all tests passed.
+#    Time: 304 ns  Iteration: 0  Instance: /testbench
+# End time: 23:42:18 on Nov 30,2022, Elapsed time: 0:20:08
+# Errors: 0, Warnings: 8

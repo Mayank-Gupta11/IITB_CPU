@@ -1,0 +1,26 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/Final/DUT.vhdl}
+vcom -93 -work work {C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/Final/Sign_Extension_7.vhd}
+vcom -93 -work work {C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/Final/Sign_Extension_10.vhd}
+vcom -93 -work work {C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/Final/mux81.vhdl}
+vcom -93 -work work {C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/Final/reg.vhdl}
+vcom -93 -work work {C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/Final/reg_file.vhdl}
+vcom -93 -work work {C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/Final/memory.vhdl}
+vcom -93 -work work {C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/Final/demux18.vhdl}
+vcom -93 -work work {C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/Final/cpu.vhd}
+vcom -93 -work work {C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/Final/alu.vhd}
+
+vcom -93 -work work {C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/Final/Testbench.vhdl}
+
+vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  Testbench
+
+add wave *
+view structure
+view signals
+run -all

@@ -1,0 +1,18 @@
+Fitter Status : Successful - Sun Nov 27 10:33:49 2022
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : cpu
+Top-level Entity Name : DUT
+Family : MAX 10
+Device : 10M25SAE144C8G
+Timing Models : Final
+Total logic elements : 1,821 / 24,960 ( 7 % )
+    Total combinational functions : 1,809 / 24,960 ( 7 % )
+    Dedicated logic registers : 594 / 24,960 ( 2 % )
+Total registers : 594
+Total pins : 17 / 101 ( 17 % )
+Total virtual pins : 0
+Total memory bits : 0 / 691,200 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 110 ( 0 % )
+Total PLLs : 0 / 1 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 1 ( 0 % )

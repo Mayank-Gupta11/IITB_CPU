@@ -1,0 +1,468 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/simulation/modelsim
+Ealu
+Z1 w1669828077
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 4
+R0
+Z5 8C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/alu.vhdl
+Z6 FC:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/alu.vhdl
+l0
+L5 1
+VQH1]banXC8]IS@85TXiCi2
+!s100 k86RU9l7KOfU3<IUbWhBi3
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1669830729
+!i10b 1
+Z9 !s108 1669830729.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/alu.vhdl|
+Z11 !s107 C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/alu.vhdl|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Aa1
+R2
+R3
+R4
+DEx4 work 3 alu 0 22 QH1]banXC8]IS@85TXiCi2
+!i122 4
+l101
+L15 122
+V_G74aGJ5V63aLQV]Pj=::2
+!s100 VJSdDC]@`]>TJ0KChEZ662
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ecpu
+R1
+R2
+R3
+R4
+!i122 3
+R0
+Z14 8C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/cpu.vhdl
+Z15 FC:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/cpu.vhdl
+l0
+L5 1
+VJiDA0n=DjUHg6XH;a@5jP2
+!s100 >Z`6QSBhmlQ`=[N`0`Y2j2
+R7
+31
+R8
+!i10b 1
+R9
+Z16 !s90 -reportprogress|300|-93|-work|work|C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/cpu.vhdl|
+Z17 !s107 C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/cpu.vhdl|
+!i113 1
+R12
+R13
+Abhv
+R2
+R3
+R4
+DEx4 work 3 cpu 0 22 JiDA0n=DjUHg6XH;a@5jP2
+!i122 3
+l94
+L11 587
+V1K>hNz@EKGWU9UEhzlm6K0
+!s100 LlR3=0PJ2;MkGTKoHZ_h:2
+R7
+31
+R8
+!i10b 1
+R9
+R16
+R17
+!i113 1
+R12
+R13
+Edemux18
+Z18 w1669828078
+R3
+R4
+!i122 9
+R0
+Z19 8C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/demux18.vhdl
+Z20 FC:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/demux18.vhdl
+l0
+L4 1
+VCG3_i<48:SSDgoXB]jUXV2
+!s100 oalUbVK1O<2K=[R[73Wk^0
+R7
+31
+Z21 !s110 1669830730
+!i10b 1
+Z22 !s108 1669830730.000000
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/demux18.vhdl|
+Z24 !s107 C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/demux18.vhdl|
+!i113 1
+R12
+R13
+Abehav
+R3
+R4
+DEx4 work 7 demux18 0 22 CG3_i<48:SSDgoXB]jUXV2
+!i122 9
+l18
+Z25 L17 25
+VOGke;zU7[02g880M8Adf[1
+!s100 F[CG9o_:BPA>fhE]Q1hFL0
+R7
+31
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R12
+R13
+Edut
+R18
+R3
+R4
+!i122 0
+R0
+Z26 8C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/DUT.vhdl
+Z27 FC:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/DUT.vhdl
+l0
+L4 1
+V93C61X3X@;<JBDe?N3bec0
+!s100 L]g]jXbmHCfm05UKVcezU3
+R7
+31
+Z28 !s110 1669830728
+!i10b 1
+Z29 !s108 1669830728.000000
+Z30 !s90 -reportprogress|300|-93|-work|work|C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/DUT.vhdl|
+Z31 !s107 C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/DUT.vhdl|
+!i113 1
+R12
+R13
+Adutwrap
+R3
+R4
+DEx4 work 3 dut 0 22 93C61X3X@;<JBDe?N3bec0
+!i122 0
+l14
+L9 10
+V99nBzh=P21gB?AVQSk[2U2
+!s100 njnINR@^H_]`;`=91Fm_^3
+R7
+31
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 1
+R12
+R13
+Ememory
+R18
+R2
+R3
+R4
+!i122 8
+R0
+Z32 8C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/memory.vhdl
+Z33 FC:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/memory.vhdl
+l0
+L5 1
+V[0NBNeM@`VDjPbY3k>2D52
+!s100 H?I6Z1T[9HTi2G@FO_5bI3
+R7
+31
+R21
+!i10b 1
+R9
+Z34 !s90 -reportprogress|300|-93|-work|work|C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/memory.vhdl|
+Z35 !s107 C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/memory.vhdl|
+!i113 1
+R12
+R13
+Abehav
+R2
+R3
+R4
+DEx4 work 6 memory 0 22 [0NBNeM@`VDjPbY3k>2D52
+!i122 8
+l18
+L11 23
+VLE=?o=2oD4jb`@h`H?HU?1
+!s100 f1ldILLC9Qi>Ig3go62IY1
+R7
+31
+R21
+!i10b 1
+R9
+R34
+R35
+!i113 1
+R12
+R13
+Emux81
+R18
+R3
+R4
+!i122 5
+R0
+Z36 8C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/mux81.vhdl
+Z37 FC:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/mux81.vhdl
+l0
+L4 1
+Vjgf=eL1JVg^JUT_Oic5372
+!s100 `_GIlelTlLdN3Oj`UECFZ0
+R7
+31
+R8
+!i10b 1
+R9
+Z38 !s90 -reportprogress|300|-93|-work|work|C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/mux81.vhdl|
+Z39 !s107 C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/mux81.vhdl|
+!i113 1
+R12
+R13
+Abehav
+R3
+R4
+DEx4 work 5 mux81 0 22 jgf=eL1JVg^JUT_Oic5372
+!i122 5
+l18
+R25
+V2cU:0cUIhSTh_JB>8VK[33
+!s100 _Z1X58BzY8>[B]CT^cG8[3
+R7
+31
+R8
+!i10b 1
+R9
+R38
+R39
+!i113 1
+R12
+R13
+Ereg
+R18
+R3
+R4
+!i122 6
+R0
+Z40 8C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/reg.vhdl
+Z41 FC:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/reg.vhdl
+l0
+L4 1
+VJ077GBnPBdQ7`Bi;C9Z7N3
+!s100 M`FfbC8Ni<5cZ:UT7HlND2
+R7
+31
+R8
+!i10b 1
+R9
+Z42 !s90 -reportprogress|300|-93|-work|work|C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/reg.vhdl|
+Z43 !s107 C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/reg.vhdl|
+!i113 1
+R12
+R13
+Abehav
+R3
+R4
+DEx4 work 3 reg 0 22 J077GBnPBdQ7`Bi;C9Z7N3
+!i122 6
+l11
+L10 13
+V3P@icb^m0TS<9`FXPDZR`2
+!s100 oUM?0AGl;40^2d>LD5UId3
+R7
+31
+R8
+!i10b 1
+R9
+R42
+R43
+!i113 1
+R12
+R13
+Ereg_file
+R18
+R3
+R4
+!i122 7
+R0
+Z44 8C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/reg_file.vhdl
+Z45 FC:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/reg_file.vhdl
+l0
+L4 1
+V3]9^WdbRJo]JDhnLPWfGe0
+!s100 X9Q3X_OFERP@eBW_1bF9o1
+R7
+31
+R8
+!i10b 1
+R9
+Z46 !s90 -reportprogress|300|-93|-work|work|C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/reg_file.vhdl|
+Z47 !s107 C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/reg_file.vhdl|
+!i113 1
+R12
+R13
+Aarch
+R3
+R4
+DEx4 work 8 reg_file 0 22 3]9^WdbRJo]JDhnLPWfGe0
+!i122 7
+l48
+L11 54
+V?jklGDbCV1PlH]Mzcb52k1
+!s100 ;RiC_>6U4cVN06e0B9f=43
+R7
+31
+R8
+!i10b 1
+R9
+R46
+R47
+!i113 1
+R12
+R13
+Esign_extension_10
+R18
+R3
+R4
+!i122 1
+R0
+Z48 8C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/Sign_Extension_10.vhdl
+Z49 FC:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/Sign_Extension_10.vhdl
+l0
+L7 1
+VRAKZIg::;E`iVGc]4Re?z3
+!s100 =5`0RRe]dlhISMP?U>=dl1
+R7
+31
+R28
+!i10b 1
+R29
+Z50 !s90 -reportprogress|300|-93|-work|work|C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/Sign_Extension_10.vhdl|
+Z51 !s107 C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/Sign_Extension_10.vhdl|
+!i113 1
+R12
+R13
+Astruct
+R3
+R4
+DEx4 work 17 sign_extension_10 0 22 RAKZIg::;E`iVGc]4Re?z3
+!i122 1
+l14
+L12 8
+Vd]FJ`<=FEVeeZ0mh<zNb63
+!s100 QKL?@IHSYW<a9QIaK`[Tl1
+R7
+31
+R28
+!i10b 1
+R29
+R50
+R51
+!i113 1
+R12
+R13
+Esign_extension_7
+R18
+R3
+R4
+!i122 2
+R0
+Z52 8C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/Sign_Extension_7.vhdl
+Z53 FC:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/Sign_Extension_7.vhdl
+l0
+L7 1
+VNHAgn7Sehf=[?9YCY8X3:1
+!s100 >z=ddhZ<FflVRe[BEj2?W2
+R7
+31
+R8
+!i10b 1
+R9
+Z54 !s90 -reportprogress|300|-93|-work|work|C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/Sign_Extension_7.vhdl|
+Z55 !s107 C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/Sign_Extension_7.vhdl|
+!i113 1
+R12
+R13
+Astruct
+R3
+R4
+DEx4 work 16 sign_extension_7 0 22 NHAgn7Sehf=[?9YCY8X3:1
+!i122 2
+l14
+L12 7
+VXFiEE;3H3nE;>?OAcfZg:1
+!s100 7FUMacDSKS]A7<Z0ofbzJ3
+R7
+31
+R8
+!i10b 1
+R9
+R54
+R55
+!i113 1
+R12
+R13
+Etestbench
+R18
+R4
+R3
+!i122 10
+R0
+Z56 8C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/Testbench.vhdl
+Z57 FC:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/Testbench.vhdl
+l0
+L7 1
+V]iKK_Z9L:G9B:i8c]3eFH0
+!s100 bWf8kl8zb90X@P1m>V^K20
+R7
+31
+R21
+!i10b 1
+R22
+Z58 !s90 -reportprogress|300|-93|-work|work|C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/Testbench.vhdl|
+!s107 C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/Testbench.vhdl|
+!i113 1
+R12
+R13
+Abehave
+R4
+R3
+DEx4 work 9 testbench 0 22 ]iKK_Z9L:G9B:i8c]3eFH0
+!i122 10
+l69
+L9 132
+VJXfPAHlN`fbzKgdRR@GF>0
+!s100 >E@1U3P7^i:;Vn1BJhQG=3
+R7
+31
+R21
+!i10b 1
+R22
+R58
+Z59 !s107 C:/Users/mayan/OneDrive/Mayank new/IIT B/EE224/Project/IITB_RISC/IITB_RISC/Testbench.vhdl|
+!i113 1
+R12
+R13

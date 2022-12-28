@@ -1,0 +1,26 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {C:/Users/Ayush/Downloads/Proj1/DUT.vhdl}
+vcom -93 -work work {C:/Users/Ayush/Downloads/Proj1/Sign_Extension_10.vhdl}
+vcom -93 -work work {C:/Users/Ayush/Downloads/Proj1/Sign_Extension_7.vhdl}
+vcom -93 -work work {C:/Users/Ayush/Downloads/Proj1/cpu.vhdl}
+vcom -93 -work work {C:/Users/Ayush/Downloads/Proj1/alu.vhdl}
+vcom -93 -work work {C:/Users/Ayush/Downloads/Proj1/mux81.vhdl}
+vcom -93 -work work {C:/Users/Ayush/Downloads/Proj1/reg.vhdl}
+vcom -93 -work work {C:/Users/Ayush/Downloads/Proj1/reg_file.vhdl}
+vcom -93 -work work {C:/Users/Ayush/Downloads/Proj1/memory.vhdl}
+vcom -93 -work work {C:/Users/Ayush/Downloads/Proj1/demux18.vhdl}
+
+vcom -93 -work work {C:/Users/Ayush/Downloads/Proj1/Testbench.vhdl}
+
+vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  Testbench
+
+add wave *
+view structure
+view signals
+run -all

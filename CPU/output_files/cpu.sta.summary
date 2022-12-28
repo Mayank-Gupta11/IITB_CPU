@@ -1,0 +1,329 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'cpu:add_instance|alu_inp1[1]'
+Slack : -16.323
+TNS   : -249.808
+
+Type  : Slow 1200mV 85C Model Setup 'cpu:add_instance|y_present1.s0'
+Slack : -9.685
+TNS   : -349.539
+
+Type  : Slow 1200mV 85C Model Setup 'cpu:add_instance|y_present1.s3'
+Slack : -9.081
+TNS   : -355.507
+
+Type  : Slow 1200mV 85C Model Setup 'cpu:add_instance|y_present1.s7'
+Slack : -8.202
+TNS   : -239.465
+
+Type  : Slow 1200mV 85C Model Setup 'cpu:add_instance|reg:T1|Q[0]'
+Slack : -7.998
+TNS   : -445.100
+
+Type  : Slow 1200mV 85C Model Setup 'cpu:add_instance|y_present1.s11'
+Slack : -7.971
+TNS   : -386.857
+
+Type  : Slow 1200mV 85C Model Setup 'input_vector[0]'
+Slack : -7.233
+TNS   : -114.680
+
+Type  : Slow 1200mV 85C Model Setup 'cpu:add_instance|write_1[0]'
+Slack : -5.601
+TNS   : -568.229
+
+Type  : Slow 1200mV 85C Model Setup 'cpu:add_instance|reg:T1|Q[12]'
+Slack : -4.283
+TNS   : -4.283
+
+Type  : Slow 1200mV 85C Model Hold 'cpu:add_instance|reg:T1|Q[0]'
+Slack : -2.135
+TNS   : -4.791
+
+Type  : Slow 1200mV 85C Model Hold 'cpu:add_instance|y_present1.s11'
+Slack : -0.874
+TNS   : -1.406
+
+Type  : Slow 1200mV 85C Model Hold 'cpu:add_instance|y_present1.s7'
+Slack : -0.347
+TNS   : -0.347
+
+Type  : Slow 1200mV 85C Model Hold 'input_vector[0]'
+Slack : -0.306
+TNS   : -1.001
+
+Type  : Slow 1200mV 85C Model Hold 'cpu:add_instance|y_present1.s0'
+Slack : -0.243
+TNS   : -0.243
+
+Type  : Slow 1200mV 85C Model Hold 'cpu:add_instance|alu_inp1[1]'
+Slack : 0.723
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'cpu:add_instance|y_present1.s3'
+Slack : 1.189
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'cpu:add_instance|write_1[0]'
+Slack : 1.630
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'cpu:add_instance|reg:T1|Q[12]'
+Slack : 3.330
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'input_vector[0]'
+Slack : -3.000
+TNS   : -78.466
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'cpu:add_instance|reg:T1|Q[0]'
+Slack : 0.127
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'cpu:add_instance|write_1[0]'
+Slack : 0.200
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'cpu:add_instance|y_present1.s11'
+Slack : 0.225
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'cpu:add_instance|y_present1.s3'
+Slack : 0.267
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'cpu:add_instance|y_present1.s0'
+Slack : 0.268
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'cpu:add_instance|alu_inp1[1]'
+Slack : 0.320
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'cpu:add_instance|y_present1.s7'
+Slack : 0.334
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'cpu:add_instance|reg:T1|Q[12]'
+Slack : 0.343
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'cpu:add_instance|alu_inp1[1]'
+Slack : -15.413
+TNS   : -236.040
+
+Type  : Slow 1200mV 0C Model Setup 'cpu:add_instance|y_present1.s0'
+Slack : -9.126
+TNS   : -334.492
+
+Type  : Slow 1200mV 0C Model Setup 'cpu:add_instance|y_present1.s3'
+Slack : -8.606
+TNS   : -342.803
+
+Type  : Slow 1200mV 0C Model Setup 'cpu:add_instance|y_present1.s7'
+Slack : -7.882
+TNS   : -232.912
+
+Type  : Slow 1200mV 0C Model Setup 'cpu:add_instance|y_present1.s11'
+Slack : -7.827
+TNS   : -372.642
+
+Type  : Slow 1200mV 0C Model Setup 'cpu:add_instance|reg:T1|Q[0]'
+Slack : -7.703
+TNS   : -439.107
+
+Type  : Slow 1200mV 0C Model Setup 'input_vector[0]'
+Slack : -7.049
+TNS   : -113.954
+
+Type  : Slow 1200mV 0C Model Setup 'cpu:add_instance|write_1[0]'
+Slack : -5.247
+TNS   : -516.060
+
+Type  : Slow 1200mV 0C Model Setup 'cpu:add_instance|reg:T1|Q[12]'
+Slack : -4.039
+TNS   : -4.039
+
+Type  : Slow 1200mV 0C Model Hold 'cpu:add_instance|reg:T1|Q[0]'
+Slack : -1.898
+TNS   : -4.113
+
+Type  : Slow 1200mV 0C Model Hold 'cpu:add_instance|y_present1.s11'
+Slack : -0.847
+TNS   : -1.321
+
+Type  : Slow 1200mV 0C Model Hold 'cpu:add_instance|y_present1.s7'
+Slack : -0.237
+TNS   : -0.237
+
+Type  : Slow 1200mV 0C Model Hold 'cpu:add_instance|y_present1.s0'
+Slack : -0.216
+TNS   : -0.216
+
+Type  : Slow 1200mV 0C Model Hold 'input_vector[0]'
+Slack : -0.129
+TNS   : -0.325
+
+Type  : Slow 1200mV 0C Model Hold 'cpu:add_instance|alu_inp1[1]'
+Slack : 0.603
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'cpu:add_instance|y_present1.s3'
+Slack : 1.186
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'cpu:add_instance|write_1[0]'
+Slack : 1.553
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'cpu:add_instance|reg:T1|Q[12]'
+Slack : 3.130
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'input_vector[0]'
+Slack : -3.000
+TNS   : -71.444
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'cpu:add_instance|reg:T1|Q[0]'
+Slack : -0.214
+TNS   : -13.212
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'cpu:add_instance|y_present1.s11'
+Slack : 0.012
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'cpu:add_instance|y_present1.s0'
+Slack : 0.025
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'cpu:add_instance|y_present1.s7'
+Slack : 0.045
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'cpu:add_instance|write_1[0]'
+Slack : 0.062
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'cpu:add_instance|y_present1.s3'
+Slack : 0.067
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'cpu:add_instance|reg:T1|Q[12]'
+Slack : 0.086
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'cpu:add_instance|alu_inp1[1]'
+Slack : 0.271
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'cpu:add_instance|alu_inp1[1]'
+Slack : -5.966
+TNS   : -92.578
+
+Type  : Fast 1200mV 0C Model Setup 'cpu:add_instance|y_present1.s3'
+Slack : -3.895
+TNS   : -129.406
+
+Type  : Fast 1200mV 0C Model Setup 'cpu:add_instance|y_present1.s7'
+Slack : -3.657
+TNS   : -91.080
+
+Type  : Fast 1200mV 0C Model Setup 'cpu:add_instance|y_present1.s0'
+Slack : -3.474
+TNS   : -117.398
+
+Type  : Fast 1200mV 0C Model Setup 'cpu:add_instance|reg:T1|Q[0]'
+Slack : -3.004
+TNS   : -137.374
+
+Type  : Fast 1200mV 0C Model Setup 'cpu:add_instance|y_present1.s11'
+Slack : -2.831
+TNS   : -130.330
+
+Type  : Fast 1200mV 0C Model Setup 'input_vector[0]'
+Slack : -2.627
+TNS   : -35.442
+
+Type  : Fast 1200mV 0C Model Setup 'cpu:add_instance|write_1[0]'
+Slack : -1.937
+TNS   : -188.250
+
+Type  : Fast 1200mV 0C Model Setup 'cpu:add_instance|reg:T1|Q[12]'
+Slack : -1.544
+TNS   : -1.544
+
+Type  : Fast 1200mV 0C Model Hold 'cpu:add_instance|reg:T1|Q[0]'
+Slack : -1.307
+TNS   : -2.980
+
+Type  : Fast 1200mV 0C Model Hold 'cpu:add_instance|y_present1.s11'
+Slack : -0.670
+TNS   : -0.954
+
+Type  : Fast 1200mV 0C Model Hold 'cpu:add_instance|y_present1.s7'
+Slack : -0.323
+TNS   : -0.323
+
+Type  : Fast 1200mV 0C Model Hold 'input_vector[0]'
+Slack : -0.198
+TNS   : -0.734
+
+Type  : Fast 1200mV 0C Model Hold 'cpu:add_instance|y_present1.s0'
+Slack : -0.177
+TNS   : -0.177
+
+Type  : Fast 1200mV 0C Model Hold 'cpu:add_instance|alu_inp1[1]'
+Slack : 0.015
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'cpu:add_instance|y_present1.s3'
+Slack : 0.262
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'cpu:add_instance|write_1[0]'
+Slack : 0.578
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'cpu:add_instance|reg:T1|Q[12]'
+Slack : 1.788
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'input_vector[0]'
+Slack : -3.000
+TNS   : -26.199
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'cpu:add_instance|reg:T1|Q[0]'
+Slack : 0.184
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'cpu:add_instance|y_present1.s0'
+Slack : 0.291
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'cpu:add_instance|y_present1.s7'
+Slack : 0.291
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'cpu:add_instance|write_1[0]'
+Slack : 0.304
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'cpu:add_instance|y_present1.s11'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'cpu:add_instance|reg:T1|Q[12]'
+Slack : 0.315
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'cpu:add_instance|y_present1.s3'
+Slack : 0.325
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'cpu:add_instance|alu_inp1[1]'
+Slack : 0.406
+TNS   : 0.000
+
+------------------------------------------------------------
